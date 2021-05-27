@@ -67,6 +67,7 @@ int main(){
     vector<Board> boards;
     int numPlayers;
     string binary;
+    string stdNum;
 
     int boardIdx = 0; // Temporary board index for initializing indices
 
@@ -91,7 +92,7 @@ int main(){
 
             int boardSize = stoi(v.at(0));  // This line and the following 3 lines is extracting info about our first board
             numPlayers = stoi(v.at(1));
-            string stNum = v.at(2);
+            stdNum = v.at(2);
             binary = v.at(3);
             Board board(boardSize, numPlayers, binary);
             boards.push_back(board);
@@ -148,7 +149,10 @@ int main(){
         it's time to play the games
     */
     for(int j = 0; j < boards.size(); j++ ){
-
+        if(j == 0){
+            outputFile << boards.at(j).getSize()<<" " <<stdNum <<" "<<binary<<endl; 
+        }else
+            outputFile << boards.at(j).getSize()<<endl;
         Board *board = &boards.at(j);
         
         for(int k = 0; k < board->getNumPlayers(); k++){
@@ -157,27 +161,36 @@ int main(){
 
         while(!board->getWinStatus()  && !board->getIsDraw()){
             for(int i = 0; i < board->getNumPlayers(); i++){
-               Player *p =  &board->players.at(i);
-                if(board->getIsDraw() || board->getWinStatus()) break;
+                Player *p =  &board->players.at(i);
+                board->checkBoardState();
+                if(board->getWinStatus() || board->getIsDraw()) break;
+                
+                // Play Here
                 do{
-                    p->rollDice();
+                    p->rollDie();
                     
                     // check if the player is will surpass the winning position
                     if((p->getPosition() + p->getDice()) <=  board->getSize()){
                         p->setPlayerState(p->getDice() , "D",1);
+                        
                     }
                     else{
                         p->incrementCurrentRound();
                     }
                     outputFile<<p->getPlayerState()<<endl;
+                    board->checkBoardState();
+                    if(board->getWinStatus() || board->getIsDraw()) break;
                     // check the current position for snake or ladder
                     if(board->tiles.at(p->getPosition()).getSnake().getStatus()){
                         p->setPlayerState(-board->tiles.at(p->getPosition()).getSnake().getLength() , "S",0);
                         outputFile<<p->getPlayerState()<<endl;
+                        
                     }
                     else if(board->tiles.at(p->getPosition()).getLadder().getStatus()){
                         p->setPlayerState(board->tiles.at(p->getPosition()).getLadder().getLength() , "L",0);
                         outputFile<<p->getPlayerState()<<endl;
+                        board->checkBoardState();
+                        if(board->getWinStatus() || board->getIsDraw()) break;
                     }
                     if( p->getDice() == 6) p-> decrementCurrentRound();
                     
@@ -196,6 +209,7 @@ int main(){
             }
 
         }
+        outputFile<<endl;
     }
 
     inputFile.close();

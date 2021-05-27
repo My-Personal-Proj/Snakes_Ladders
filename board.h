@@ -76,8 +76,51 @@ class Board{
             numLadders++;
         }
 
+        void checkBoardState(){
+            
+            isDraw = true;
+            for(int i = 0; i < numPlayers; i++){
+                if(players.at(i).getPosition() == size){
+                    isWon = true;
+                    WINNER = "w";
+                    WINNER.append(players.at(i).getName());
+
+                }
+                else
+                if(players.at(i).getCurrentRound() != size){
+                    isDraw = false;
+                }
+
+                if(i == numPlayers -1 && isDraw){
+                    int w = checkLeader();
+                    if(w != -1){
+                        isWon = true;
+                        isDraw = false;
+                        WINNER = "w";
+                        WINNER.append(players.at(i).getName());
+                    }
+                }
+            }
+        }
+
+        int checkLeader(){
+            int w = -1;
+            for(int i = 0; i < numPlayers; i++){
+                for(int j = i+1; j<numPlayers; j++){
+                    if(players.at(i).getPosition() > players.at(j).getPosition())
+                        w = i;
+                    else if(players.at(i).getPosition() < players.at(j).getPosition())
+                        w = j;
+                    else
+                        w = -1;
+                }
+            }
+            return w;
+        }
+
         void setWinStatus(int winner){
             isWon = true;
+            WINNER = "";
             WINNER.append("w")
             .append(players.at(winner).getName());
         }

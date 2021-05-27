@@ -24,6 +24,7 @@ class Player{
     public:
         // constructor initializing the player
         Player(int name) {
+            srand(time(NULL));
             Name.append(to_string(name));
             Position = 0;
             currentRound = 0;
@@ -107,10 +108,7 @@ class Player{
         }
         // Each player can roll their own 6 sided die
         void rollDie(){
-            srand(time(NULL));
-            // int n = (rand()%10)+5;
-            // srand(n);
-            Dice = (rand()%6)+1;
+            Dice = int(rand()%6+1)%6 + 1;
         }
 
         void setDie(int n){
