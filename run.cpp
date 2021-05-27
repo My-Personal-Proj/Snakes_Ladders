@@ -19,10 +19,11 @@ using namespace std;
 void createBoards(vector<Board> boards, vector<string> inputFile); // creation of all boards from input file
 bool isBoardInializer(char ch);
 void split(vector<string> &vec, string str, string del);
-int rollDice();
 
 int main(){
 
+
+    /* This section reads in all the lines from the input file and stores results into a vector*/
     /* ---------------------------------------------------------------------------------------------------------------------------------------------------------------*/
     fstream outputFile , inputFile; // creating input and output file 
     vector<vector<string>> inFile; // vector form of the input file
@@ -61,9 +62,10 @@ int main(){
     
     /*----------------------------------------------------------------------------------------------------------------------------------------------------------------*/
     
-
+    /*This section initializes all the boards for us*/
+    /*The initialization includes, number of players, board size, snakes and ladders too of every board*/
+    /*Each board is then sored into a vector of boards*/
     /*----------------------------------------------------------------------------------------------------------------------------------------------------------------*/
-    // vector<Player> players;
     vector<Board> boards;
     int numPlayers;
     string binary;
@@ -141,77 +143,102 @@ int main(){
 
     /*---------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
+    /* Now that every board is initialized, This section here plays the game and writes every thing into the output file*/
     /*---------------------------------------------------------------------------------------------------------------------------------------------------------------*/
-    for(int i = 0; i < boards.size(); i++ )
-    boards.at(i).printBoard();
-
+    
     /*
         it's time to play the games
     */
     for(int j = 0; j < boards.size(); j++ ){
+        // For every single board, do what's below
+
         if(j == 0){
+            // First line of input into the file
             outputFile << boards.at(j).getSize()<<" " <<stdNum <<" "<<binary<<endl; 
-        }else
+        }else // first line of input for every new board
             outputFile << boards.at(j).getSize()<<endl;
+
+        // Creating a reference to the current board    
         Board *board = &boards.at(j);
         
+        /* THis is for debugging purposes*/
         for(int k = 0; k < board->getNumPlayers(); k++){
             outputFile << board->players.at(k).getPlayerState()<<endl;
         }
-
+    
+        // Playing the game for as long no winner has been found and the for as long as it's not a draw
         while(!board->getWinStatus()  && !board->getIsDraw()){
+            // give every player a chance to play the game
             for(int i = 0; i < board->getNumPlayers(); i++){
+                // create a player reference in the current game
                 Player *p =  &board->players.at(i);
+
+                // Check the current state of the board for any winners or end of game with a draw
                 board->checkBoardState();
                 if(board->getWinStatus() || board->getIsDraw()) break;
                 
-                // Play Here
+                // The do while loop let's a player play for as long as they are rolling 6's
+                // Trust me this works wonders
                 do{
-                    p->rollDie();
+                    p->rollDie(); 
                     
                     // check if the player is will surpass the winning position
+                    // Move only if the move doesn't go beyond the size of the board
                     if((p->getPosition() + p->getDice()) <=  board->getSize()){
+                        // The line below handles it all for us
                         p->setPlayerState(p->getDice() , "D",1);
-                        
                     }
                     else{
+                        // increment the round the player is currently in
                         p->incrementCurrentRound();
                     }
+                    // Write current move of player by Die Roll
                     outputFile<<p->getPlayerState()<<endl;
+
+                    // Check for a win upon a move
                     board->checkBoardState();
                     if(board->getWinStatus() || board->getIsDraw()) break;
+
                     // check the current position for snake or ladder
                     if(board->tiles.at(p->getPosition()).getSnake().getStatus()){
                         p->setPlayerState(-board->tiles.at(p->getPosition()).getSnake().getLength() , "S",0);
-                        outputFile<<p->getPlayerState()<<endl;
-                        
+                        outputFile<<p->getPlayerState()<<endl;  
+                        /*No need to check here because we cannot win by being bitten by a snake*/
                     }
                     else if(board->tiles.at(p->getPosition()).getLadder().getStatus()){
+                        // Move up a ladder if you current position is a ladder
                         p->setPlayerState(board->tiles.at(p->getPosition()).getLadder().getLength() , "L",0);
                         outputFile<<p->getPlayerState()<<endl;
+
+                        /* Since we've moved up, Check for any potential wins and losses*/
                         board->checkBoardState();
                         if(board->getWinStatus() || board->getIsDraw()) break;
                     }
+
+                    // mechanism for controlling the current round a player is in
+                    // trust it works coz it does
                     if( p->getDice() == 6) p-> decrementCurrentRound();
                     
-                }while(p->getDice() == 6);
+                }while(p->getDice() == 6); // loop controller for any move
                 
             }
 
+            /*If a winner has been found, add winner line appropriately*/
             if(board->getWinStatus()){
                 outputFile<< board->getWinner()<<endl<<endl;
                 break;
             }
 
+            /* If the game ended and there's no winner, leave it at that*/
             if(board->getIsDraw()){
                 outputFile<<"D"<<endl<<endl;
                 break;
             }
 
         }
-        outputFile<<endl;
     }
 
+    /*Close the openend files*/
     inputFile.close();
     outputFile.close();
     return 0;
