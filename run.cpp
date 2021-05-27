@@ -3,6 +3,8 @@
 #include<string>
 #include<cmath>
 #include<vector>
+#include<cstdlib>
+#include<ctime>
 
 // including files that we need
 #include "player.h"
@@ -17,7 +19,7 @@ using namespace std;
 void createBoards(vector<Board> boards, vector<string> inputFile); // creation of all boards from input file
 bool isBoardInializer(char ch);
 void split(vector<string> &vec, string str, string del);
-
+int rollDice();
 
 int main(){
 
@@ -59,6 +61,8 @@ int main(){
     
     /*----------------------------------------------------------------------------------------------------------------------------------------------------------------*/
     
+
+    /*----------------------------------------------------------------------------------------------------------------------------------------------------------------*/
     // vector<Player> players;
     vector<Board> boards;
     int numPlayers;
@@ -134,15 +138,64 @@ int main(){
         }
     }
 
+    /*---------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+    /*---------------------------------------------------------------------------------------------------------------------------------------------------------------*/
     for(int i = 0; i < boards.size(); i++ )
     boards.at(i).printBoard();
 
     /*
         it's time to play the games
     */
-    for(int i = 0; i < boards.size(); i++ ){
-        Board board = boards.at(i);
-        while
+    for(int j = 0; j < boards.size(); j++ ){
+
+        Board *board = &boards.at(j);
+        
+        for(int k = 0; k < board->getNumPlayers(); k++){
+            outputFile << board->players.at(k).getPlayerState()<<endl;
+        }
+
+        while(!board->getWinStatus()  && !board->getIsDraw()){
+            for(int i = 0; i < board->getNumPlayers(); i++){
+               Player *p =  &board->players.at(i);
+                if(board->getIsDraw() || board->getWinStatus()) break;
+                do{
+                    p->rollDice();
+                    
+                    // check if the player is will surpass the winning position
+                    if((p->getPosition() + p->getDice()) <=  board->getSize()){
+                        p->setPlayerState(p->getDice() , "D",1);
+                    }
+                    else{
+                        p->incrementCurrentRound();
+                    }
+                    outputFile<<p->getPlayerState()<<endl;
+                    // check the current position for snake or ladder
+                    if(board->tiles.at(p->getPosition()).getSnake().getStatus()){
+                        p->setPlayerState(-board->tiles.at(p->getPosition()).getSnake().getLength() , "S",0);
+                        outputFile<<p->getPlayerState()<<endl;
+                    }
+                    else if(board->tiles.at(p->getPosition()).getLadder().getStatus()){
+                        p->setPlayerState(board->tiles.at(p->getPosition()).getLadder().getLength() , "L",0);
+                        outputFile<<p->getPlayerState()<<endl;
+                    }
+                    if( p->getDice() == 6) p-> decrementCurrentRound();
+                    
+                }while(p->getDice() == 6);
+                
+            }
+
+            if(board->getWinStatus()){
+                outputFile<< board->getWinner()<<endl<<endl;
+                break;
+            }
+
+            if(board->getIsDraw()){
+                outputFile<<"D"<<endl<<endl;
+                break;
+            }
+
+        }
     }
 
     inputFile.close();
@@ -180,4 +233,8 @@ void split(vector<string> &vec, string str, string del){
     vec.push_back(str.substr(start, end-start));
 }
 
+int rollDice(){
+    // srand(time(NULL));
+    return  ((rand()%6)+1);
+}
 

@@ -11,6 +11,7 @@ using namespace std;
 
 class Player{
     private:
+        
         int Position;   // player's current position
         int Dice;   // rolled die value
         int currentRound;
@@ -30,12 +31,16 @@ class Player{
             MoveStateSymbol = "D";
             playerState.append("R-").append("0").append(" ").append(Name).append(" D-").append("0").append(" M-").append("0"); 
         }
-
+ 
         /*
             Getters
         */
         string getPlayerState(){
             return playerState;
+        }
+
+        string getName(){
+            return Name;
         }
 
         int getPosition(){
@@ -62,11 +67,28 @@ class Player{
         /*
             Setters
         */
-        void setPlayerState(int moveAmount, string moveBy){
+        void setPlayerState(int moveAmount, string moveBy , int inc){
             currentMoveAmount = moveAmount;
             Position += moveAmount;
+            MoveStateSymbol = moveBy;
+            if(inc != 0) incrementCurrentRound();
+            playerState = "";
+            playerState.append("R-")
+            .append(to_string(currentRound))
+            .append(" "+Name);
             
+            if(moveBy == "S")
+                playerState.append(" "+moveBy);
+            else
+                playerState.append(" "+moveBy+"-");
+
+            playerState.append(to_string(moveAmount))
+            .append(" M-")
+            .append(to_string(Position));
+
         }
+
+
 
         void setPosition(int pos){
             Position = pos;
@@ -85,8 +107,20 @@ class Player{
         }
         // Each player can roll their own 6 sided die
         void rollDie(){
-            srand(time(0));
+            srand(time(NULL));
+            // int n = (rand()%10)+5;
+            // srand(n);
             Dice = (rand()%6)+1;
+        }
+
+        void setDie(int n){
+            Dice = n;
+        }
+        void incrementCurrentRound(){
+            currentRound++;
+        }
+        void decrementCurrentRound(){
+            currentRound--;
         }
 
 };

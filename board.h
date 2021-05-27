@@ -25,20 +25,25 @@ class Board{
         int numPlayers;
         string config; // configuration of snakes and ladders by binary from
 
-        vector<Snake> snakes;
-        vector<Ladder> ladders;
-        vector<Player> players;
-        vector<Tile> tiles;
+        bool isWon;
+        bool isDraw;
+        string WINNER="";
+
+        
 
     
     public:
+
+        vector<Player> players;
+        vector<Tile> tiles;
+
         Board(int Size, int nPlayers, string config){
             n = sqrt(Size);
             size = Size;
             numPlayers = nPlayers;
             numSnakes = 0;
             numLadders = 0;
-
+            isWon = false;
             // Setting tile positions
             for(int i = 1; i < size+1; i++ ){
                 Tile t(i);
@@ -71,6 +76,31 @@ class Board{
             numLadders++;
         }
 
+        void setWinStatus(int winner){
+            isWon = true;
+            WINNER.append("w")
+            .append(players.at(winner).getName());
+        }
+        void setIsDraw(){
+            isDraw = true;
+        }
+        // Getters
+        int getNumPlayers(){
+            return numPlayers;
+        }
+        string getWinner(){
+            return WINNER;
+        }
+        bool getIsDraw(){
+            return isDraw;
+        }
+        int getSize(){
+            return size;
+        }
+
+        bool getWinStatus(){
+            return isWon;
+        }
 };
 
 

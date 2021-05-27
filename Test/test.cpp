@@ -1,8 +1,9 @@
 #include<iostream>
+#include<ctime>
 
 using namespace std;
 
 int main(){
 
-    cout<<int('1')<<endl;
+    cout<< time(NULL)<<endl;
 }
