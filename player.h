@@ -51,11 +51,11 @@ class Player{
         }
 
         int getcurrentMoveAmount(){
-            return currentMoveAmount();
+            return currentMoveAmount;
         }
 
         //MSS stands for Move State Symbol
-        int setMoveStateSymbol(string MSS){
+        void setMoveStateSymbol(string MSS){
             MoveStateSymbol = MSS;
         }
 

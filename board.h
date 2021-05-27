@@ -36,6 +36,8 @@ class Board{
             n = sqrt(Size);
             size = Size;
             numPlayers = nPlayers;
+            numSnakes = 0;
+            numLadders = 0;
 
             // Setting tile positions
             for(int i = 1; i < size+1; i++ ){
@@ -49,12 +51,24 @@ class Board{
             }
         }
 
+        void printBoard(){
+            cout<< "\nTHESE ARE THE CURRENT PROPERTIES OF THIS BOARD\n";
+            cout<< "-----------------------------------------------\n";
+            cout<< "This board is of size: "<<size<< "\nAnd has dimesion: ("<< n <<" x "<< n <<" )\n";
+            cout<< "The number of snakes is: "<<numSnakes<<endl;
+            cout<< "The number of ladders is: "<<numLadders<<endl;
+            cout<< "The number of players is: "<<numPlayers<<endl;
+            cout<< "\n====================================================================================\n\n";
+        }
+
         void addSnake(int pos, Snake snake){
             tiles.at(pos).setSnake(snake);
+            numSnakes++;
         }
 
         void addLadder(int pos, Ladder ladder){
             tiles.at(pos).setLadder(ladder);
+            numLadders++;
         }
 
 };

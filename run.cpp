@@ -51,6 +51,7 @@ int main(){
         if(inputFile.eof()){
             break;
         }
+        if(line == "" || line == " ") continue;
         split(vec,line," ");
 
         inFile.push_back(vec);
@@ -58,7 +59,7 @@ int main(){
     
     /*----------------------------------------------------------------------------------------------------------------------------------------------------------------*/
     
-    vector<Player> players;
+    // vector<Player> players;
     vector<Board> boards;
     int numPlayers;
 
@@ -77,10 +78,28 @@ int main(){
             continue;
         }
 
+        string s1 = inFile.at(i).at(0);
+        string s2 = inFile.at(i).at(1);
+        if(!isBoardInializer(s1)){
+            vector<string> item;
+            split(item,s2,"-");
+
+            int itemPosition = stoi(item.at(0));
+            int itemLength = stoi(item.at(1));
+            if(s1 == "S"){
+                Snake s(itemPosition, itemLength);
+                boards.at(boardIdx).addSnake(itemPosition, s);
+            }
+            else{
+                Ladder l(itemPosition , itemLength);
+                boards.at(boardIdx).addLadder(itemPosition,l);
+            }
+        }
 
         
 
     }
+    boards.at(0).printBoard();
 
     inputFile.close();
     outputFile.close();
@@ -104,10 +123,13 @@ void split(vector<string> &vec, string str, string del){
     int end = str.find(del);
     while(end != -1){
         vec.push_back(str.substr(start, end-start));
+        // cout<<str.substr(start, end-start)<<endl;
         start = end + del.size();
         end = str.find(del,start);
     }
     vec.push_back(str.substr(start, end-start));
+    // cout<<str.substr(start, end-start)<<endl;
+
 }
 
 
