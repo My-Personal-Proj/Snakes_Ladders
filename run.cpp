@@ -15,7 +15,7 @@ using namespace std;
 
 // void createInputVec(vector<string> &vec , fstream input);   // input file to vector per line
 void createBoards(vector<Board> boards, vector<string> inputFile); // creation of all boards from input file
-bool isBoardInializer(string line);
+bool isBoardInializer(char ch);
 void split(vector<string> &vec, string str, string del);
 
 
@@ -62,17 +62,33 @@ int main(){
     // vector<Player> players;
     vector<Board> boards;
     int numPlayers;
+    string binary;
 
     int boardIdx = 0; // Temporary board index for initializing indices
 
+    /*
+        This for loop puts the meat onto the bones we've created.
+        It looks into the values of the input file and then create boards from the input file
+        The boards are created and stored into a vector
+        Each board can be seen as a game of it's own
+    */
     for(int i = 0; i < inFile.size(); i++){
         
+        // The if statement initializes our very first board
+        // The function heavily relies on input format specified in the docs
         if(i == 0){
-            vector<string> v = inFile.at(0);
-            int boardSize = stoi(v.at(0));
+            vector<string> v = inFile.at(0); // read as the first line of the file
+
+            // This if statement checks if the first line of the input file has the right parameters.
+            if(v.size() != 4){
+                cout<< "Your first line of input needs to have 4 strings"<< endl;
+                return 1;
+            }
+
+            int boardSize = stoi(v.at(0));  // This line and the following 3 lines is extracting info about our first board
             numPlayers = stoi(v.at(1));
             string stNum = v.at(2);
-            string binary = v.at(3);
+            binary = v.at(3);
             Board board(boardSize, numPlayers, binary);
             boards.push_back(board);
             continue;
@@ -80,7 +96,9 @@ int main(){
 
         string s1 = inFile.at(i).at(0);
         string s2 = inFile.at(i).at(1);
-        if(!isBoardInializer(s1)){
+
+        // This if statement checks whether your the current line initializes a new board or take parameters for a new board
+        if(!isBoardInializer(s1.at(0))){
             vector<string> item;
             split(item,s2,"-");
 
@@ -90,16 +108,42 @@ int main(){
                 Snake s(itemPosition, itemLength);
                 boards.at(boardIdx).addSnake(itemPosition, s);
             }
-            else{
+            else if(s1 == "L"){
                 Ladder l(itemPosition , itemLength);
                 boards.at(boardIdx).addLadder(itemPosition,l);
             }
+            else{
+                cout<< "Line "<< i+1 << " of your input file's first letter needs to be ";
+                cout << "capital 'S' for Snake paramenter of capital 'L' for the Ladder"<< endl;
+                return 1;  
+            }
         }
-
-        
-
+        else{
+            // The if checks that the next board has proper initializations
+            if(inFile.at(i).size() != 2){
+                cout<< "Please check that your input parameters ";
+                cout<< "for board number: "<< i+1 << "is entered correctly in you file" << endl;
+                return 1;
+            }
+            // Do the right things here
+            boardIdx ++;
+            int boardSize = stoi(s1);
+            numPlayers = stoi(s2);
+            Board board(boardSize, numPlayers,binary);
+            boards.push_back(board);
+        }
     }
-    boards.at(0).printBoard();
+
+    for(int i = 0; i < boards.size(); i++ )
+    boards.at(i).printBoard();
+
+    /*
+        it's time to play the games
+    */
+    for(int i = 0; i < boards.size(); i++ ){
+        Board board = boards.at(i);
+        while
+    }
 
     inputFile.close();
     outputFile.close();
@@ -109,27 +153,31 @@ int main(){
 
 
 
-bool isBoardInializer(string line){
+bool isBoardInializer(char ch){
     // check if the first letter if between 48 and 57 inclusive
     // return true if the condition is satisfied, return else otherwise
-    if(int(line[0])>48 && int(line[0])<58)
+    if(int(ch) > 47 && int(ch) < 58)
         return true;
     
     return false;
 }
 
+
+/*
+    The function below splits a string using a delimeter
+    a delimeter is just a character we want to split the string by
+    It stores them split in a vector we pass by reference
+    Check out the difference between pass by value and pass by reference, so cool.
+*/
 void split(vector<string> &vec, string str, string del){
     int start = 0;
     int end = str.find(del);
     while(end != -1){
         vec.push_back(str.substr(start, end-start));
-        // cout<<str.substr(start, end-start)<<endl;
         start = end + del.size();
         end = str.find(del,start);
     }
     vec.push_back(str.substr(start, end-start));
-    // cout<<str.substr(start, end-start)<<endl;
-
 }
 
 
