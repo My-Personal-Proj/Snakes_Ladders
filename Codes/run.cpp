@@ -238,7 +238,8 @@ int main(){
         }
     }
 
-    /*Close the openend files*/
+    /*Close the openend files
+    */
     inputFile.close();
     outputFile.close();
     return 0;
