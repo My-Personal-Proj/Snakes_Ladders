@@ -9,11 +9,14 @@
 \contentsline {subsubsection}{Object Oriented Design}{3}{section*.9}%
 \contentsline {subsubsection}{The Three Phases}{4}{section*.9}%
 \contentsline {section}{Results}{4}{section*.10}%
-\contentsline {section}{Discussion}{4}{section*.11}%
-\contentsline {subsection}{The Approach}{4}{section*.12}%
-\contentsline {subsection}{The Solution}{4}{section*.13}%
-\contentsline {subsection}{Improvements and Validations}{4}{section*.14}%
-\contentsline {section}{Conclusion}{5}{section*.15}%
-\contentsline {section}{References}{6}{section*.16}%
-\contentsline {section}{Appendix}{7}{section*.17}%
-\contentsline {subsection}{A: Project Time Management}{7}{section*.18}%
+\contentsline {subsection}{Student Number designed boards}{4}{section*.11}%
+\contentsline {subsection}{Testing purpose designed boards}{5}{section*.12}%
+\contentsline {section}{Discussion}{6}{section*.13}%
+\contentsline {subsection}{The Approach}{6}{section*.14}%
+\contentsline {subsection}{The Solution}{6}{section*.15}%
+\contentsline {subsection}{Improvements and Validations}{6}{section*.16}%
+\contentsline {section}{Conclusion}{7}{section*.17}%
+\contentsline {section}{References}{8}{section*.18}%
+\contentsline {section}{Appendix}{9}{section*.19}%
+\contentsline {subsection}{A: Project Time Management}{9}{section*.20}%
+\contentsline {subsection}{B: Flow Chart}{10}{section*.21}%
