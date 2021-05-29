@@ -28,7 +28,7 @@ int main(){
     fstream outputFile , inputFile; // creating input and output file 
     vector<vector<string>> inFile; // vector form of the input file
 
-    outputFile.open("files/output.txt",ios::out);
+    outputFile.open("files/results.txt",ios::out);
     inputFile.open("files/inputfile.txt", ios::in);
 
     // Checking if the output file was created

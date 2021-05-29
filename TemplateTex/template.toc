@@ -1,3 +1,18 @@
 \babel@toc {english}{}
-\contentsline {section}{Table Of Contents}{ii}{section*.1}%
-\contentsline {section}{Introduction}{2}{section*.2}%
+\contentsline {section}{Abstract}{1}{section*.2}%
+\contentsline {section}{Introduction}{2}{section*.3}%
+\contentsline {subsection}{Snakes And Ladders}{2}{section*.4}%
+\contentsline {section}{Board Design}{2}{section*.5}%
+\contentsline {subsection}{Termination outcomes}{2}{section*.6}%
+\contentsline {subsection}{Considerations of design}{3}{section*.7}%
+\contentsline {subsection}{The Solution}{3}{section*.8}%
+\contentsline {subsubsection}{Object Oriented Design}{3}{section*.9}%
+\contentsline {subsubsection}{The Three Phases}{4}{section*.9}%
+\contentsline {section}{Results}{4}{section*.10}%
+\contentsline {section}{Discussion}{4}{section*.11}%
+\contentsline {subsection}{The Approach}{4}{section*.12}%
+\contentsline {subsection}{The solution}{4}{section*.13}%
+\contentsline {section}{Discussion}{4}{section*.14}%
+\contentsline {section}{References}{5}{section*.15}%
+\contentsline {section}{Appendices}{6}{section*.16}%
+\contentsline {subsection}{Appendix A: Project Time Management}{6}{section*.17}%
