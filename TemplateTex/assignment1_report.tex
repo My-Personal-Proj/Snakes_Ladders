@@ -11,16 +11,8 @@
 \fancyhead[L]{ELEN2004/ELEN2020 Software Development I Assignment}
 %\vskip 3mm 
 \pagenumbering{roman}
-\newpage
-\tableofcontents
-\newpage
- 
-\begin{center}
-	\textit{This page is intentionally left blank}
-\end{center}
-\newpage
 
-
+\newpage
 
 \vspace*{\fill}
 \begin{center}
@@ -31,6 +23,16 @@
 	\end{minipage}
 \end{center}
 \vfill % equivalent to \vspace{\fill}
+
+
+\newpage
+\tableofcontents
+\newpage
+ 
+\begin{center}
+	\textit{This page is intentionally left blank}
+\end{center}
+
 
 \pagenumbering{arabic}
 \newpage
@@ -43,7 +45,7 @@ Take for example a $10\ by\ 10$ grid numbered from $1$ to $100$ in order. To mak
 That is how the game works in a nutshell.
 
 \section*{Board and Game Design}
-\addcontentsline{toc}{section}{Board Design}
+\addcontentsline{toc}{section}{Board and Game Design}
 The number of snakes and ladders are dependent on the binary encoding of my student number with the least significant digit on the right. The number of \textbf{0}'s represent the number of snakes and the number of \textbf{1}'s represent the number of ladders. \textbf{1000110110110101011001000} is the encoding of my student number, I added 3 extra \textbf{0}'s at the end for reasons specified in the \textit{Considerations of design} subsection.
 
 \subsection*{Possible game termination outcomes}
@@ -86,14 +88,17 @@ Upon playing the game, we proceed to the very next board if any exists, otherwis
 \addcontentsline{toc}{subsection}{The Approach}
 The aim is to complete a given task by minimizing the amount of code one will write. Having this in mind and upon reading the requirements/specifications document, the objected oriented approach made the most sense to achieve the goal. This reason I went with this approach was to ensure consistency within similar entities of the i.e. I do don't have to worry about changing players characteristics individually. This approach also saves us a huge amount of redundant code.
 \subsection*{The Solution}
-\addcontentsline{toc}{subsection}{The solution}
+\addcontentsline{toc}{subsection}{The Solution}
 Like every game, the aim is to have while playing it, but there's is no fun in a game which is easy or very difficult to win. The element of chance makes it unpredictable to an extent, but the lengths of the snakes and ladders are what we can control to measure the fun players can have. The length of snakes was informed the idea that sometimes when life knocks you, it knocks you so hard that it takes you back to where you started from. The ladders on the other hand, their lengths depict how slow one moves to attain the success they need. The whole idea however is that psychologically, people tend to be interested in things they relate to. Therefore, making our solution depict the real world made sense even though the players is just a processors adding 1's and 0's in the background playing against itself.
-\subsection{Improvements and Validations}
+\subsection*{Improvements and Validations}
 \addcontentsline{toc}{subsection}{Improvements and Validations}
-I can not think of any improvements I would have made in terms of the overall performance of the implemented solution. 
+I can not think of any improvements I would have made in terms of the overall performance of the implemented solution. One improvement I could have made is in terms of reducing the amount of code I wrote by making the snake and ladder object as one object. This makes it easy to keep the code maintained. The reason why this improvement could have been made is because of the fact that the snake and the ladder does the exact same job just in opposite direction. The problem with the current implementation is that if I add a function to the snake class, I need to add the exact same function to the ladder class.\\
+One more improvement I could have added is dynamically creating the input of snakes and ladders and the writing it to a file. This would cut off the dependency on input file which I believe could be outside the scope of this assignment, or maybe not. \\ \\
+This assignment wasn't at all easy, the only assumptions that were made were ones in relation to the time taken to complete the project. Having played the game before many times and understanding how it works, I assumed I would have completed it sooner that I did but I didn't, and that's okay because life is like rolling a 1 and landing on the head of snake and not get what you want sometimes. 
 
 \section*{Conclusion}
 \addcontentsline{toc}{section}{Conclusion}
+All boxes have been checked, code works exactly as intended, or so I believe. There are many design patterns one could have employed, the object oriented design made it significantly easier to implement the solution than just sequentially writing code that is prone to having intractable bugs. Relating life events to the game of snake and ladders also helped in keeping me motivated to get to the finish line.
 
 \newpage
 \section*{References}
@@ -101,10 +106,10 @@ I can not think of any improvements I would have made in terms of the overall pe
 
 
 \newpage
-\section*{Appendices}
-\addcontentsline{toc}{section}{Appendices}
-\subsection*{Appendix A: Project Time Management}
-\addcontentsline{toc}{subsection}{Appendix A: Project Time Management}
+\section*{Appendix}
+\addcontentsline{toc}{section}{Appendix}
+\subsection*{A: Project Time Management}
+\addcontentsline{toc}{subsection}{A: Project Time Management}
 
 
 \end{document} 
