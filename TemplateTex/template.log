@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.10.25)  29 MAY 2021 19:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.10.25)  30 MAY 2021 14:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -954,23 +954,23 @@ File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
 (./template.aux)
 \openout1 = `template.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Trying to load font information for T1+ptm on input line 3.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Trying to load font information for T1+ptm on input line 2.
 
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
@@ -1034,7 +1034,7 @@ ABD: EveryShipout initializing macros
 
 \c@lstlisting=\count333
 \AtBeginShipoutBox=\box138
-Package hyperref Info: Link coloring ON on input line 3.
+Package hyperref Info: Link coloring ON on input line 2.
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
 
@@ -1046,74 +1046,74 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count334
 )
-LaTeX Info: Redefining \ref on input line 3.
-LaTeX Info: Redefining \pageref on input line 3.
-LaTeX Info: Redefining \nameref on input line 3.
+LaTeX Info: Redefining \ref on input line 2.
+LaTeX Info: Redefining \pageref on input line 2.
+LaTeX Info: Redefining \nameref on input line 2.
 
 (./template.out) (./template.out)
 \@outlinefile=\write4
 \openout4 = `template.out'.
 
 LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line
- 12.
+ 8.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line
- 12.
+ 8.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line
- 12.
+ 8.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line
- 12.
+ 8.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
-LaTeX Font Info:    Trying to load font information for U+lasy on input line 12
-.
+LaTeX Font Info:    Trying to load font information for U+lasy on input line 8.
+
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-LaTeX Font Info:    Trying to load font information for U+bbold on input line 1
-2.
+LaTeX Font Info:    Trying to load font information for U+bbold on input line 8
+.
 
 (/usr/share/texlive/texmf-dist/tex/latex/bbold/Ubbold.fd)
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 12
-.
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 8.
+
 
 (/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
-LaTeX Font Info:    Trying to load font information for U+stmry on input line 1
-2.
+LaTeX Font Info:    Trying to load font information for U+stmry on input line 8
+.
 
 (/usr/share/texlive/texmf-dist/tex/latex/stmaryrd/Ustmry.fd)
-LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 1
-2.
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 8
+.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 12.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 8.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 12.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 8.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 12.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 8.
 <witslogo_h.png, id=90, 1030.85126pt x 640.3925pt>
 File: witslogo_h.png Graphic file (type png)
 <use witslogo_h.png>
-Package pdftex.def Info: witslogo_h.png  used on input line 20.
+Package pdftex.def Info: witslogo_h.png  used on input line 16.
 (pdftex.def)             Requested size: 92.7726pt x 57.63283pt.
 
 
@@ -1126,63 +1126,63 @@ This may cause the page layout to be inconsistent, however.
 
  <./witslogo_h.png>]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 28.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 24.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 28.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 24.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 28.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 24.
 
 [2] (./template.toc)
 \tf@toc=\write5
 \openout5 = `template.toc'.
 
  [3] [1]
-Underfull \hbox (badness 10000) in paragraph at lines 48--51
+Underfull \hbox (badness 10000) in paragraph at lines 44--47
 
  []
 
 [2]
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 67.
+(hyperref)                be the same. Added a new anchor on input line 63.
 
 LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 6
-9.
+5.
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 ) [3]
 <threeOrig.png, id=143, 1084.05pt x 247.92625pt>
 File: threeOrig.png Graphic file (type png)
 <use threeOrig.png>
-Package pdftex.def Info: threeOrig.png  used on input line 94.
+Package pdftex.def Info: threeOrig.png  used on input line 90.
 (pdftex.def)             Requested size: 542.02368pt x 123.96281pt.
 <sixOrig.png, id=144, 1065.9825pt x 323.2075pt>
 File: sixOrig.png Graphic file (type png)
 <use sixOrig.png>
-Package pdftex.def Info: sixOrig.png  used on input line 96.
+Package pdftex.def Info: sixOrig.png  used on input line 92.
 (pdftex.def)             Requested size: 532.98994pt x 161.60335pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 93--97
+Underfull \hbox (badness 10000) in paragraph at lines 89--93
 
  []
 
 
-Overfull \hbox (64.0173pt too wide) in paragraph at lines 93--97
+Overfull \hbox (64.0173pt too wide) in paragraph at lines 89--93
 [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 93--97
+Underfull \hbox (badness 10000) in paragraph at lines 89--93
 
  []
 
 
-Overfull \hbox (54.98357pt too wide) in paragraph at lines 93--97
+Overfull \hbox (54.98357pt too wide) in paragraph at lines 89--93
 [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 93--97
+Underfull \hbox (badness 10000) in paragraph at lines 89--93
 
  []
 
@@ -1190,53 +1190,59 @@ Underfull \hbox (badness 10000) in paragraph at lines 93--97
 <three.png, id=151, 1152.305pt x 256.96pt>
 File: three.png Graphic file (type png)
 <use three.png>
-Package pdftex.def Info: three.png  used on input line 101.
+Package pdftex.def Info: three.png  used on input line 97.
 (pdftex.def)             Requested size: 518.53246pt x 115.63092pt.
 <six.png, id=152, 1157.32375pt x 350.30875pt>
 File: six.png Graphic file (type png)
 <use six.png>
-Package pdftex.def Info: six.png  used on input line 102.
+Package pdftex.def Info: six.png  used on input line 98.
 (pdftex.def)             Requested size: 520.79088pt x 157.63748pt.
 
-Overfull \hbox (40.52608pt too wide) in paragraph at lines 100--104
+Overfull \hbox (40.52608pt too wide) in paragraph at lines 96--100
 [] 
  []
 
 
-Overfull \hbox (42.7845pt too wide) in paragraph at lines 100--104
+Overfull \hbox (42.7845pt too wide) in paragraph at lines 96--100
 [] 
  []
 
 [5 <./sixOrig.png> <./three.png> <./six.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 115--118
+Underfull \hbox (badness 10000) in paragraph at lines 111--114
 
  []
 
-[6] [7] (./template.bbl) [8] [9]
-<SnL.png, id=181, 820.06375pt x 1161.33875pt>
+[6] [7] [8]
+<Time.png, id=178, 945.5325pt x 245.91875pt>
+File: Time.png Graphic file (type png)
+<use Time.png>
+Package pdftex.def Info: Time.png  used on input line 140.
+(pdftex.def)             Requested size: 472.76509pt x 122.95906pt.
+ [9 <./Time.png>] [10]
+<SnL.png, id=191, 820.06375pt x 1161.33875pt>
 File: SnL.png Graphic file (type png)
 <use SnL.png>
-Package pdftex.def Info: SnL.png  used on input line 145.
+Package pdftex.def Info: SnL.png  used on input line 167.
 (pdftex.def)             Requested size: 410.03087pt x 580.66795pt.
 
 Overfull \vbox (11.02754pt too high) has occurred while \output is active []
 
 
-[10 <./SnL.png>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 149.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 149.
+[11 <./SnL.png>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 171.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 171.
  (./template.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 149.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 149.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 171.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 171.
 Package rerunfilecheck Info: File `template.out' has not changed.
-(rerunfilecheck)             Checksum: 51343D3C7EB10C8580C37BE476A4FB28;1267.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 149.
+(rerunfilecheck)             Checksum: ECF4121DB97AA6798EF39C67DDD15EDA;1267.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 171.
  ) ) 
 Here is how much of TeX's memory you used:
- 23130 strings out of 481239
- 419732 string characters out of 5920376
+ 23135 strings out of 481239
+ 419786 string characters out of 5920376
  883526 words of memory out of 5000000
- 37826 multiletter control sequences out of 15000+600000
+ 37830 multiletter control sequences out of 15000+600000
  585131 words of font info for 115 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  60i,16n,66p,1869b,452s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1244,10 +1250,10 @@ Here is how much of TeX's memory you used:
 ive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/
 fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw
 /times/utmri8a.pfb>
-Output written on template.pdf (13 pages, 425134 bytes).
+Output written on template.pdf (14 pages, 460791 bytes).
 PDF statistics:
- 210 PDF objects out of 1000 (max. 8388607)
- 178 compressed objects within 2 object streams
- 35 named destinations out of 1000 (max. 500000)
- 211 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 222 PDF objects out of 1000 (max. 8388607)
+ 187 compressed objects within 2 object streams
+ 38 named destinations out of 1000 (max. 500000)
+ 216 words of extra memory for PDF output out of 10000 (max. 10000000)
 

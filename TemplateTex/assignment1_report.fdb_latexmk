@@ -1,8 +1,8 @@
 # Fdb version 3
-["pdflatex"] 1622309312 "/home/beast/Documents/NotSchool/freelance/Snake&Ladders/TemplateTex/assignment1_report.tex" "/home/beast/Documents/NotSchool/freelance/Snake&Ladders/TemplateTex/assignment1_report.pdf" "assignment1_report" 1622309312
+["pdflatex"] 1622310989 "/home/beast/Documents/NotSchool/freelance/Snake&Ladders/TemplateTex/assignment1_report.tex" "/home/beast/Documents/NotSchool/freelance/Snake&Ladders/TemplateTex/assignment1_report.pdf" "assignment1_report" 1622310989
   "/etc/texmf/web2c/texmf.cnf" 1601192507 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/beast/Documents/NotSchool/freelance/Snake&Ladders/TemplateTex/assignment1_report.aux" 1622309312 8 a94a2480d3289e625eea47cd1b285758 ""
-  "/home/beast/Documents/NotSchool/freelance/Snake&Ladders/TemplateTex/assignment1_report.tex" 1622309311 16699 90dac9607cc56c7e8f2b14f3b081b13a ""
+  "/home/beast/Documents/NotSchool/freelance/Snake&Ladders/TemplateTex/assignment1_report.aux" 1622310989 8 a94a2480d3289e625eea47cd1b285758 ""
+  "/home/beast/Documents/NotSchool/freelance/Snake&Ladders/TemplateTex/assignment1_report.tex" 1622310988 17195 5316cc26320bbd69d7b1abf4d0cf5552 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1136768653 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmti10.tfm" 1136768653 1480 aa8e34af0eb6a2941b776984cf1dfdc4 ""
@@ -16,10 +16,10 @@
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1603660691 4770781 1ed1abab22da9c3e2cc82e4db562318b ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1603660760 8261000 7a8f146603b8fbc7cbcaf5623d1840b3 ""
   "assignment1_report.aux" 0 -1 0 "pdflatex"
-  "assignment1_report.tex" 1622309311 16699 90dac9607cc56c7e8f2b14f3b081b13a ""
+  "assignment1_report.tex" 1622310988 17195 5316cc26320bbd69d7b1abf4d0cf5552 ""
   (generated)
+  "assignment1_report.aux"
+  "/home/beast/Documents/NotSchool/freelance/Snake&Ladders/TemplateTex/assignment1_report.log"
   "assignment1_report.pdf"
   "/home/beast/Documents/NotSchool/freelance/Snake&Ladders/TemplateTex/assignment1_report.pdf"
-  "/home/beast/Documents/NotSchool/freelance/Snake&Ladders/TemplateTex/assignment1_report.log"
   "assignment1_report.log"
-  "assignment1_report.aux"

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.10.25)  29 MAY 2021 19:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.10.25)  29 MAY 2021 19:56
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -13,66 +13,66 @@ File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
 ) (/home/beast/Documents/NotSchool/freelance/Snake&Ladders/TemplateTex/assignment1_report.aux)
 \openout1 = `assignment1_report.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
 
 
-/home/beast/Documents/NotSchool/freelance/Snake&Ladders/TemplateTex/assignment1_report.tex:3: LaTeX Error: The font size command \normalsize is not defined:
+/home/beast/Documents/NotSchool/freelance/Snake&Ladders/TemplateTex/assignment1_report.tex:2: LaTeX Error: The font size command \normalsize is not defined:
                there is probably something wrong with the class file.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.3 \begin{document}
+l.2 \begin{document}
                     
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-/home/beast/Documents/NotSchool/freelance/Snake&Ladders/TemplateTex/assignment1_report.tex:10: Undefined control sequence.
-l.10 \maketitle
-               
+/home/beast/Documents/NotSchool/freelance/Snake&Ladders/TemplateTex/assignment1_report.tex:6: Undefined control sequence.
+l.6 \maketitle
+              
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-/home/beast/Documents/NotSchool/freelance/Snake&Ladders/TemplateTex/assignment1_report.tex:12: Undefined control sequence.
+/home/beast/Documents/NotSchool/freelance/Snake&Ladders/TemplateTex/assignment1_report.tex:8: Undefined control sequence.
 <argument> \undefinedpagestyle 
                                
-l.12 \pagestyle{fancy}
-                      
+l.8 \pagestyle{fancy}
+                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-/home/beast/Documents/NotSchool/freelance/Snake&Ladders/TemplateTex/assignment1_report.tex:13: Undefined control sequence.
-l.13 \fancyhf
-             {}
+/home/beast/Documents/NotSchool/freelance/Snake&Ladders/TemplateTex/assignment1_report.tex:9: Undefined control sequence.
+l.9 \fancyhf
+            {}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-/home/beast/Documents/NotSchool/freelance/Snake&Ladders/TemplateTex/assignment1_report.tex:15: Undefined control sequence.
-l.15 \fancyhead
+/home/beast/Documents/NotSchool/freelance/Snake&Ladders/TemplateTex/assignment1_report.tex:11: Undefined control sequence.
+l.11 \fancyhead
                [R]{\thepage}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -80,8 +80,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-/home/beast/Documents/NotSchool/freelance/Snake&Ladders/TemplateTex/assignment1_report.tex:15: Undefined control sequence.
-l.15 \fancyhead[R]{\thepage
+/home/beast/Documents/NotSchool/freelance/Snake&Ladders/TemplateTex/assignment1_report.tex:11: Undefined control sequence.
+l.11 \fancyhead[R]{\thepage
                            }
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -89,8 +89,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-/home/beast/Documents/NotSchool/freelance/Snake&Ladders/TemplateTex/assignment1_report.tex:16: Undefined control sequence.
-l.16 \fancyhead
+/home/beast/Documents/NotSchool/freelance/Snake&Ladders/TemplateTex/assignment1_report.tex:12: Undefined control sequence.
+l.12 \fancyhead
                [L]{ELEN2004/ELEN2020 Software Development I Assignment}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -99,22 +99,22 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-/home/beast/Documents/NotSchool/freelance/Snake&Ladders/TemplateTex/assignment1_report.tex:20: LaTeX Error: The font size command \normalsize is not defined:
+/home/beast/Documents/NotSchool/freelance/Snake&Ladders/TemplateTex/assignment1_report.tex:16: LaTeX Error: The font size command \normalsize is not defined:
                there is probably something wrong with the class file.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.20 \newpage
+l.16 \newpage
              
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-/home/beast/Documents/NotSchool/freelance/Snake&Ladders/TemplateTex/assignment1_report.tex:25: Undefined control sequence.
-l.25 		\section
+/home/beast/Documents/NotSchool/freelance/Snake&Ladders/TemplateTex/assignment1_report.tex:21: Undefined control sequence.
+l.21 		\section
                *{Abstract}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -123,26 +123,26 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 28.
+(Font)              <7> on input line 24.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 28.
+(Font)              <5> on input line 24.
 
-/home/beast/Documents/NotSchool/freelance/Snake&Ladders/TemplateTex/assignment1_report.tex:33: LaTeX Error: The font size command \normalsize is not defined:
+/home/beast/Documents/NotSchool/freelance/Snake&Ladders/TemplateTex/assignment1_report.tex:29: LaTeX Error: The font size command \normalsize is not defined:
                there is probably something wrong with the class file.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.33 \newpage
+l.29 \newpage
              
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 [2]
-/home/beast/Documents/NotSchool/freelance/Snake&Ladders/TemplateTex/assignment1_report.tex:34: Undefined control sequence.
-l.34 \tableofcontents
+/home/beast/Documents/NotSchool/freelance/Snake&Ladders/TemplateTex/assignment1_report.tex:30: Undefined control sequence.
+l.30 \tableofcontents
                      
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -151,22 +151,22 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-/home/beast/Documents/NotSchool/freelance/Snake&Ladders/TemplateTex/assignment1_report.tex:43: LaTeX Error: The font size command \normalsize is not defined:
+/home/beast/Documents/NotSchool/freelance/Snake&Ladders/TemplateTex/assignment1_report.tex:39: LaTeX Error: The font size command \normalsize is not defined:
                there is probably something wrong with the class file.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.43 \newpage
+l.39 \newpage
              
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 [1]
-/home/beast/Documents/NotSchool/freelance/Snake&Ladders/TemplateTex/assignment1_report.tex:44: Undefined control sequence.
-l.44 \section
+/home/beast/Documents/NotSchool/freelance/Snake&Ladders/TemplateTex/assignment1_report.tex:40: Undefined control sequence.
+l.40 \section
              *{Introduction}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -174,8 +174,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-/home/beast/Documents/NotSchool/freelance/Snake&Ladders/TemplateTex/assignment1_report.tex:46: Undefined control sequence.
-l.46 \subsection
+/home/beast/Documents/NotSchool/freelance/Snake&Ladders/TemplateTex/assignment1_report.tex:42: Undefined control sequence.
+l.42 \subsection
                 *{Snakes And Ladders}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -184,13 +184,22 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 44--51
+Underfull \hbox (badness 10000) in paragraph at lines 40--47
 
  []
 
-/home/beast/Documents/NotSchool/freelance/Snake&Ladders/TemplateTex/assignment1_report.tex:52: Undefined control sequence.
-l.52 \section
+/home/beast/Documents/NotSchool/freelance/Snake&Ladders/TemplateTex/assignment1_report.tex:48: Undefined control sequence.
+l.48 \section
              *{Board and Game Design}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/home/beast/Documents/NotSchool/freelance/Snake&Ladders/TemplateTex/assignment1_report.tex:52: Undefined control sequence.
+l.52 \subsection
+                *{Possible game termination outcomes}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -199,7 +208,7 @@ and I'll forget about whatever was undefined.
 
 /home/beast/Documents/NotSchool/freelance/Snake&Ladders/TemplateTex/assignment1_report.tex:56: Undefined control sequence.
 l.56 \subsection
-                *{Possible game termination outcomes}
+                *{Considerations of design}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -208,15 +217,6 @@ and I'll forget about whatever was undefined.
 
 /home/beast/Documents/NotSchool/freelance/Snake&Ladders/TemplateTex/assignment1_report.tex:60: Undefined control sequence.
 l.60 \subsection
-                *{Considerations of design}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/home/beast/Documents/NotSchool/freelance/Snake&Ladders/TemplateTex/assignment1_report.tex:64: Undefined control sequence.
-l.64 \subsection
                 *{The Solution}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -224,8 +224,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-/home/beast/Documents/NotSchool/freelance/Snake&Ladders/TemplateTex/assignment1_report.tex:87: Undefined control sequence.
-l.87 \section
+/home/beast/Documents/NotSchool/freelance/Snake&Ladders/TemplateTex/assignment1_report.tex:83: Undefined control sequence.
+l.83 \section
              *{Results}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -233,8 +233,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-/home/beast/Documents/NotSchool/freelance/Snake&Ladders/TemplateTex/assignment1_report.tex:91: Undefined control sequence.
-l.91 \subsection
+/home/beast/Documents/NotSchool/freelance/Snake&Ladders/TemplateTex/assignment1_report.tex:87: Undefined control sequence.
+l.87 \subsection
                 *{Results on boards designed from the student number}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -242,10 +242,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-/home/beast/Documents/NotSchool/freelance/Snake&Ladders/TemplateTex/assignment1_report.tex:94: Undefined control sequence.
+/home/beast/Documents/NotSchool/freelance/Snake&Ladders/TemplateTex/assignment1_report.tex:90: Undefined control sequence.
 <recently read> \includegraphics 
                                  
-l.94 \includegraphics
+l.90 \includegraphics
                      [scale=0.5]{threeOrig.png}\\\\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -253,10 +253,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-/home/beast/Documents/NotSchool/freelance/Snake&Ladders/TemplateTex/assignment1_report.tex:96: Undefined control sequence.
+/home/beast/Documents/NotSchool/freelance/Snake&Ladders/TemplateTex/assignment1_report.tex:92: Undefined control sequence.
 <recently read> \includegraphics 
                                  
-l.96 \includegraphics
+l.92 \includegraphics
                      [scale=0.5]{sixOrig.png}\\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -265,22 +265,22 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 91--97
+Underfull \hbox (badness 10000) in paragraph at lines 87--93
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 91--97
+Underfull \hbox (badness 10000) in paragraph at lines 87--93
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 91--97
+Underfull \hbox (badness 10000) in paragraph at lines 87--93
 
  []
 
-/home/beast/Documents/NotSchool/freelance/Snake&Ladders/TemplateTex/assignment1_report.tex:98: Undefined control sequence.
-l.98 \subsection
+/home/beast/Documents/NotSchool/freelance/Snake&Ladders/TemplateTex/assignment1_report.tex:94: Undefined control sequence.
+l.94 \subsection
                 *{Results on boards designed to test conditions of winning}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -288,30 +288,30 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
+/home/beast/Documents/NotSchool/freelance/Snake&Ladders/TemplateTex/assignment1_report.tex:97: Undefined control sequence.
+<recently read> \includegraphics 
+                                 
+l.97 \includegraphics
+                     [scale=0.45]{three.png}\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/home/beast/Documents/NotSchool/freelance/Snake&Ladders/TemplateTex/assignment1_report.tex:98: Undefined control sequence.
+<recently read> \includegraphics 
+                                 
+l.98 \includegraphics
+                     [scale=0.45]{six.png}\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 /home/beast/Documents/NotSchool/freelance/Snake&Ladders/TemplateTex/assignment1_report.tex:101: Undefined control sequence.
-<recently read> \includegraphics 
-                                 
-l.101 \includegraphics
-                      [scale=0.45]{three.png}\\
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/home/beast/Documents/NotSchool/freelance/Snake&Ladders/TemplateTex/assignment1_report.tex:102: Undefined control sequence.
-<recently read> \includegraphics 
-                                 
-l.102 \includegraphics
-                      [scale=0.45]{six.png}\\
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-/home/beast/Documents/NotSchool/freelance/Snake&Ladders/TemplateTex/assignment1_report.tex:105: Undefined control sequence.
-l.105 \section
+l.101 \section
               *{Discussion}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -319,8 +319,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-/home/beast/Documents/NotSchool/freelance/Snake&Ladders/TemplateTex/assignment1_report.tex:107: Undefined control sequence.
-l.107 \subsection
+/home/beast/Documents/NotSchool/freelance/Snake&Ladders/TemplateTex/assignment1_report.tex:103: Undefined control sequence.
+l.103 \subsection
                  *{The Approach}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -328,8 +328,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-/home/beast/Documents/NotSchool/freelance/Snake&Ladders/TemplateTex/assignment1_report.tex:110: Undefined control sequence.
-l.110 \subsection
+/home/beast/Documents/NotSchool/freelance/Snake&Ladders/TemplateTex/assignment1_report.tex:106: Undefined control sequence.
+l.106 \subsection
                  *{The Solution}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -337,8 +337,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-/home/beast/Documents/NotSchool/freelance/Snake&Ladders/TemplateTex/assignment1_report.tex:113: Undefined control sequence.
-l.113 \subsection
+/home/beast/Documents/NotSchool/freelance/Snake&Ladders/TemplateTex/assignment1_report.tex:109: Undefined control sequence.
+l.109 \subsection
                  *{Improvements and Validations}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -347,12 +347,12 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 105--118
+Underfull \hbox (badness 10000) in paragraph at lines 101--114
 
  []
 
-/home/beast/Documents/NotSchool/freelance/Snake&Ladders/TemplateTex/assignment1_report.tex:119: Undefined control sequence.
-l.119 \section
+/home/beast/Documents/NotSchool/freelance/Snake&Ladders/TemplateTex/assignment1_report.tex:115: Undefined control sequence.
+l.115 \section
               *{Conclusion}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -361,22 +361,22 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-/home/beast/Documents/NotSchool/freelance/Snake&Ladders/TemplateTex/assignment1_report.tex:123: LaTeX Error: The font size command \normalsize is not defined:
+/home/beast/Documents/NotSchool/freelance/Snake&Ladders/TemplateTex/assignment1_report.tex:119: LaTeX Error: The font size command \normalsize is not defined:
                there is probably something wrong with the class file.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.123 \newpage
+l.119 \newpage
               
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 [2]
-/home/beast/Documents/NotSchool/freelance/Snake&Ladders/TemplateTex/assignment1_report.tex:124: Undefined control sequence.
-l.124 \section
+/home/beast/Documents/NotSchool/freelance/Snake&Ladders/TemplateTex/assignment1_report.tex:120: Undefined control sequence.
+l.120 \section
               *{References}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -384,9 +384,45 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-/home/beast/Documents/NotSchool/freelance/Snake&Ladders/TemplateTex/assignment1_report.tex:126: Undefined control sequence.
-l.126 \printbibliography
-                        
+/home/beast/Documents/NotSchool/freelance/Snake&Ladders/TemplateTex/assignment1_report.tex:123: Undefined control sequence.
+l.123 [1] \ \ \ \ \ \ \ \ \ \ \   \href
+                                       {https://www.crazygames.com/game/snak...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/home/beast/Documents/NotSchool/freelance/Snake&Ladders/TemplateTex/assignment1_report.tex:125: Undefined control sequence.
+l.125 [2] \ \ \ \ \ \ \ \ \ \ \   \href
+                                       {https://geeksforgeeks.org}{Geeks For...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/home/beast/Documents/NotSchool/freelance/Snake&Ladders/TemplateTex/assignment1_report.tex:127: Undefined control sequence.
+l.127 [3] \ \ \ \ \ \ \ \ \ \ \   \href
+                                       {https://Stackoverflow.com}{Stack Ove...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/home/beast/Documents/NotSchool/freelance/Snake&Ladders/TemplateTex/assignment1_report.tex:129: Undefined control sequence.
+l.129 [4] \ \ \ \ \ \ \ \ \ \ \   \href
+                                       {https://www.programiz.com/cpp-progra...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+/home/beast/Documents/NotSchool/freelance/Snake&Ladders/TemplateTex/assignment1_report.tex:131: Undefined control sequence.
+l.131 [5] \ \ \ \ \ \ \ \ \ \ \   \href
+                                       {http://www.cplusplus.com/reference/}...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -394,22 +430,22 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-/home/beast/Documents/NotSchool/freelance/Snake&Ladders/TemplateTex/assignment1_report.tex:129: LaTeX Error: The font size command \normalsize is not defined:
+/home/beast/Documents/NotSchool/freelance/Snake&Ladders/TemplateTex/assignment1_report.tex:133: LaTeX Error: The font size command \normalsize is not defined:
                there is probably something wrong with the class file.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.129 \newpage
+l.133 \newpage
               
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 [3]
-/home/beast/Documents/NotSchool/freelance/Snake&Ladders/TemplateTex/assignment1_report.tex:130: Undefined control sequence.
-l.130 \section
+/home/beast/Documents/NotSchool/freelance/Snake&Ladders/TemplateTex/assignment1_report.tex:134: Undefined control sequence.
+l.134 \section
               *{Appendix}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -417,8 +453,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-/home/beast/Documents/NotSchool/freelance/Snake&Ladders/TemplateTex/assignment1_report.tex:133: Undefined control sequence.
-l.133 \subsection
+/home/beast/Documents/NotSchool/freelance/Snake&Ladders/TemplateTex/assignment1_report.tex:137: Undefined control sequence.
+l.137 \subsection
                  *{A: Project Time Management}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -427,22 +463,22 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-/home/beast/Documents/NotSchool/freelance/Snake&Ladders/TemplateTex/assignment1_report.tex:136: LaTeX Error: The font size command \normalsize is not defined:
+/home/beast/Documents/NotSchool/freelance/Snake&Ladders/TemplateTex/assignment1_report.tex:140: LaTeX Error: The font size command \normalsize is not defined:
                there is probably something wrong with the class file.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.136 \newpage
+l.140 \newpage
               
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 [4]
-/home/beast/Documents/NotSchool/freelance/Snake&Ladders/TemplateTex/assignment1_report.tex:137: Undefined control sequence.
-l.137 \subsubsection
+/home/beast/Documents/NotSchool/freelance/Snake&Ladders/TemplateTex/assignment1_report.tex:141: Undefined control sequence.
+l.141 \subsubsection
                     *{B: Flow Chart}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -450,8 +486,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-/home/beast/Documents/NotSchool/freelance/Snake&Ladders/TemplateTex/assignment1_report.tex:139: Undefined control sequence.
-l.139 \includegraphics
+/home/beast/Documents/NotSchool/freelance/Snake&Ladders/TemplateTex/assignment1_report.tex:143: Undefined control sequence.
+l.143 \includegraphics
                       [scale=0.5]{SnL.png}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -460,14 +496,14 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-/home/beast/Documents/NotSchool/freelance/Snake&Ladders/TemplateTex/assignment1_report.tex:143: LaTeX Error: The font size command \normalsize is not defined:
+/home/beast/Documents/NotSchool/freelance/Snake&Ladders/TemplateTex/assignment1_report.tex:147: LaTeX Error: The font size command \normalsize is not defined:
                there is probably something wrong with the class file.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.143 \end{document}
+l.147 \end{document}
                     
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -483,7 +519,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  20i,4n,19p,1920b,132s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on /home/beast/Documents/NotSchool/freelance/Snake&Ladders/TemplateTex/assignment1_report.pdf (7 pages, 67985 bytes).
+Output written on /home/beast/Documents/NotSchool/freelance/Snake&Ladders/TemplateTex/assignment1_report.pdf (7 pages, 68662 bytes).
 PDF statistics:
  44 PDF objects out of 1000 (max. 8388607)
  30 compressed objects within 1 object stream
